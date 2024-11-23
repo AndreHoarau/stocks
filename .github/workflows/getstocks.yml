@@ -23,9 +23,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run stocks.py
-      run: python stocks.py
-
     - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions[bot]'
