@@ -1,4 +1,4 @@
-name: Run stocks.py daily
+name: Run stocks chat gpt
 
 on:
   schedule:
